@@ -1,0 +1,48 @@
+<div class="modalidadRecojoUsuario">
+    <div>
+      <h2>Trámite - Modalidad recojo</h2>
+    <div>
+        <form action="" method="post" enctype="multipart/form-data" class="subirDocumentos">
+           
+
+
+           <div class="form-input foto">
+           <label for="">* Foto: <input type="file" name="image"></label>
+           <img src="/assets/iconopregunta.png" alt="iconopregunta" class="iconopregunta" onclick="mostrarMensaje1()">
+           </div>
+
+          <div class="form-input firma">
+          <label for="">* Firma: <input type="file" name="image"></label>
+          <img src="/assets/iconopregunta.png" alt="iconopregunta" class="iconopregunta" onclick="mostrarMensaje2()">
+          </div>
+
+
+          <div class="form-input huella">
+          <label for="">* Huella: <input type="file" name="image"></label>
+           <img src="/assets/iconopregunta.png" alt="iconopregunta" class="iconopregunta" onclick="mostrarMensaje3()">
+          </div>
+
+
+
+
+          <div class="form-input comprobante">
+          <label for="">* N. Comprobante: <input type="text" name="comprobante"></label>
+           <img src="/assets/iconopregunta.png" alt="iconopregunta" class="iconopregunta" onclick="mostrarMensaje4()">
+          </div>
+
+
+
+
+            <input type="hidden" name="recojo" value="subirDocumentos">
+            <input type="submit" value="Registrar tramite">
+        </form>
+
+        <p class="mensajeSubirDocumentos">
+
+        </p>
+    </div>  
+    </div>
+</div>
+
+ <script src="/js/ventanaInformacion.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
